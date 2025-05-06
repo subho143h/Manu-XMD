@@ -1,0 +1,26 @@
+{
+ "name": "🧚‍♀️𝗠𝗔𝗡𝗨-𝗠𝗗💗",
+  "description": "Javascript WhatsApp bot made by Manul Official",
+  "logo": "https://i.ibb.co/XZFdhy0/IMG-20250102-WA0065.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+    "env": {
+        "SESSION_ID": {
+            "description": "Type the Session-ID you got from pair or scan qr || සෙසන් id එක දාපන්...😌❤",
+            "required": true,
+            "value": "put your session id here"
+        },
+        "TYPE": {
+            "description": "if you need buttons put 'button' if you need nonbutton ( number reply ) put 'nonbutton' || බටන් ඕනි නම් 'button' දාන්න number reply ඕනි නම් nonbutton දාන්න...😌❤",
+            "required": true,
+            "value": "nonbutton"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
