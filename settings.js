@@ -43,11 +43,11 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? 'put_your_session' : process.env.SESSION_ID, // put your session id || ඔයාගෙ සෙසන් එක දාන්න...😌❤
+SESSION_ID: process.env.SESSION_ID === undefined ? 'Manu-MD&ETtCWZrR#amgoR9rZnHr5F04SIU81DQ4ykKVPRDSMa7awLui1VbE' : process.env.SESSION_ID, // put your session id || ඔයාගෙ සෙසන් එක දාන්න...😌❤
 TYPE: process.env.TYPE === undefined ? 'nonbutton' : process.env.TYPE, // if you need buttons put 'button' if you need nonbutton ( number reply ) put 'nonbutton' || බටන් ඕනි නම් 'button' දාන්න number reply ඕනි නම් nonbutton දාන්න...😌❤
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
-SUDO: process.env.SUDO === undefined ? '94742274855' : process.env.SUDO,
+SUDO: process.env.SUDO === undefined ? '918945999655' : process.env.SUDO,
 LANGUAGE: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
@@ -58,12 +58,12 @@ ANTI_CALL: process.env.ANTI_CALL === undefined ? "true" : process.env.ANTI_CALL,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "true" : process.env.ANTI_BOT,
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === undefined ? "false" : process.env.ALWAYS_ONLINE,
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === undefined ? "true" : process.env.ALWAYS_ONLINE,
 READ_CMD: process.env.READ_CMD === undefined ? "true" : process.env.READ_CMD,
 RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
-AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
-AUTO_TYPING: process.env.AUTO_TYPING === undefined ? 'false' : process.env.AUTO_TYPING,
+AUTO_REACT: process.env.AUTO_REACT === undefined ? "true" : process.env.AUTO_REACT,
+AUTO_TYPING: process.env.AUTO_TYPING === undefined ? 'true' : process.env.AUTO_TYPING,
 AUTO_BIO: process.env.AUTO_BIO === undefined ? 'true' : process.env.AUTO_BIO,
 ANTI_STICKER: process.env.ANTI_STICKER === undefined ? 'false' : process.env.ANTI_STICKER,
 ANTI_PHOTO: process.env.ANTI_PHOTO === undefined ? 'false' : process.env.ANTI_PHOTO,
